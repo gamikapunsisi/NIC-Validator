@@ -1,0 +1,141 @@
+/* .nic-card {
+    margin-top: 50px;
+}
+
+body {
+    background: linear-gradient(to right, #6897ee, #24211d);
+} */
+
+
+
+/* .nic-card {
+    margin-top: 50px;
+    background: white;
+    color: #0047AB;
+    border-radius: 12px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+}
+
+body {
+    background: linear-gradient(to right, #007BFF, #001F3F);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-success {
+    background-color: #007BFF;
+    border-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #FFAA00; 
+    border-color: #CC8800;
+}
+
+.developer-text {
+    color: #D3D3D3;
+    text-align: right;
+    font-size: 0.9rem;
+    margin-top: 20px;
+} */
+
+
+
+
+/* Card Styling */
+.nic-card {
+    margin-top: 50px;
+    background: #ffffff; /* White background for cards */
+    color: #0047AB; /* Deep blue text */
+    border-radius: 16px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Soft shadow for better interaction */
+    padding: 30px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.nic-card:hover {
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Slightly larger shadow on hover */
+}
+
+/* Page Background */
+body {
+    background: linear-gradient(to right, #4D93FF, #1E3C6C); /* Soft gradient background */
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 20px;
+}
+
+/* Buttons Styling */
+.btn-success {
+    background-color: #007BFF; /* Blue button */
+    border-color: #0056b3;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 8px; /* Rounded button edges */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-success:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.btn-warning {
+    background-color: #FFAA00; /* Gold button */
+    border-color: #CC8800;
+    padding: 12px 25px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.btn-warning:hover {
+    background-color: #CC8800; /* Darker gold on hover */
+}
+
+/* Developer Info Text */
+.developer-text {
+    color: #D3D3D3;
+    text-align: right;
+    font-size: 0.9rem;
+    margin-top: 25px;
+    font-style: italic;
+}
+
+/* Form Input Styling */
+input.form-control {
+    border-radius: 8px; /* Rounded inputs */
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #007BFF; /* Highlight border on focus */
+}
+
+/* Headings */
+h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Text in Columns */
+.col-lg-12, .col-md-12, .col-sm-12, .col-12 {
+    margin-bottom: 25px;
+}
+
+/* Error/Success Messages */
+.nic-validate-error {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #FF6347; /* Red error text */
+}
+
+.nic-birthday, .nic-gender {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #90EE90; /* Light green for success messages */
+}
